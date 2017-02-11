@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>welcome to Game of Thrones</title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/my.js"></script>
+</head>
+<body>
+    <!--导航部分-->
+    <div id="div1">
+    <nav class="nav">
+        <ul>
+            <li><a href="#a1"> HOME</a></li>
+            <li><a href="#a2"> ABOUT</a></li>
+            <li><a href="#a3">FAMILY</a></li>
+            <li><a href="#a4"> CONTACT</a></li>
+        </ul>
+    </nav>
+        <!--文字轮播-->
+    <header><a name="a1"></a>
+        <div id="header">
+            <div id="header1" class="carousel slide">
+            <!--轮播指标-->
+            <ol class="carousel-indicators">
+                <li data-target="#header1" data-slide-to="0" class="active"></li>
+                <li data-target="#header1" data-slide-to="1"></li>
+                <li data-target="#header1" data-slide-to="2"></li>
+            </ol>
+            <!--轮播项目-->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <p>Game of Thrones</p>
+                    <hr>
+                </div>
+                <div class="item">
+                    <p>Game of Power</p>
+                    <hr>
+                </div>
+                <div class="item">
+                    <p>Game of women</p>
+                    <hr>
+                </div>
+            </div>
+            <!--轮播导航-->
+            <a class="carousel-control left" href="#header1" data-slide="prev"></a>
+            <a class="carousel-control right" href="#header1" data-slide="next"></a>
+        </div>
+        </div>
+    </header>
+
+        </div>
+    <div id="div2"><a name="a2"></a>
+        <h2>ABOUT</h2>
+        <h3>Who They Are?</h3>
+        <div id="pic">
+            <div class="peop">
+                <img src="imgs/john.jpg">
+                <h3>John Snow</h3>
+            </div>
+            <div class="peop">
+                <img src="imgs/ailiya.jpg">
+                <h3>Arya Stark</h3>
+            </div>
+            <div class="peop">
+                <img src="imgs/bran.jpg">
+                <h3>Bran Stark</h3>
+            </div>
+            <div class="peop">
+                <img src="imgs/sansa.jpg">
+                <h3>Sansa Stark</h3>
+            </div>
+            <div class="peop">
+                <img src="imgs/luobo.jpg">
+                <h3>Robb  Stark</h3>
+            </div>
+            <div class="peop">
+                <img src="imgs/longma.jpg">
+                <h3>Princess Deanerys</h3>
+            </div>
+
+        </div>
+    </div>
+    <div id="div3"><a name="a3"></a>
+
+    <ul id="myTab" class="nav nav-tabs">
+        <li class="active">
+            <a href="#all" data-toggle="tab">All</a>
+        </li>
+        <li>
+            <a href="#wolf" data-toggle="tab">Stark</a>
+        </li>
+        <li>
+            <a href="#stag" data-toggle="tab">Baratheon</a>
+        </li>
+        <li>
+            <a href="#lion" data-toggle="tab">Lannister</a>
+        </li>
+        <li>
+            <a href="#dragon" data-toggle="tab">Targnryen</a>
+        </li>
+    </ul>
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="all">
+            <img src="imgs/wolf.jpg">
+            <img src="imgs/stag.jpg">
+            <img src="imgs/lion.jpg">
+            <img src="imgs/dragon.jpg">
+        </div>
+        <div class="tab-pane fade" id="wolf">
+            <img src="imgs/wolf.jpg">
+        </div>
+        <div class="tab-pane fade" id="stag">
+            <img src="imgs/stag.jpg">
+        </div>
+        <div class="tab-pane fade" id="lion">
+            <img src="imgs/lion.jpg">
+        </div>
+        <div class="tab-pane fade" id="dragon">
+            <img src="imgs/dragon.jpg">
+        </div>
+    </div>
+</div>
+    <div id="div4"><a name="a4"></a>
+            <h2>CONTACT ME</h2>
+       <div id="name"> <label>Name：</label><input type="text" placeholder="Your Name" /></div>
+        <div id="email"><label>Email:</label><input type="email" placeholder="Email"/></div>
+        <div id="advice"><label>Advice:</label><textarea cols="50" rows="4">Your Advice</textarea></div>
+        <div id="go"><input type="submit" value="Go" /></div>
+    </div>
+</body>
+</html>

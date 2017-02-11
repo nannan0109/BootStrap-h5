@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+#div1{
+    background: url("../imgs/header.jpg");
+    height: 688px;
+}
+.nav{
+    height: 80px;
+    background-color: rgb(16,16,16);
+    opacity: 0.6;
+
+}
+nav ul{
+    height: 80px;
+    width: 600px;
+    margin:0px auto;
+    display: block;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    font-weight: bolder;
+}
+nav ul a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    width: 80px;
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+    line-height: 80px;
+    border-right: 1px solid #ffffff;
+}
+nav ul a:hover{
+    color: rgb(63,205,255);
+}
+.nav1{
+    background-color: #000;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+}
+header{
+
+    height:688px;
+    margin: 0px auto;
+}
+#header{
+    background-color: #000;
+    opacity: 0.5;
+    height: 688px;
+}
+#header1{
+    width: 300px;
+    height: 300px;
+}
+#header1 p{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 20px 0 0 40px;
+}
+#header1 hr{
+    border: 3px solid rgb(63,205,255);
+    width: 300px;
+}
+#div2{
+    height: 650px;
+}
+#div2 h2{
+    text-align: center;
+}
+#div2 h3{
+    text-align: center;
+}
+#pic{
+    margin: 20px 40px 0 40px;
+    height: 800px;
+}
+#pic .peop{
+    float: left;
+    height: 300px;
+    width: 33%;
+
+}
+#pic img{
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    margin: 0 0 0 100px;
+}
+#div3{
+    height: 768px;
+    background: url("../imgs/fa.jpg");
+}
+#div3 h2{
+    text-align: center;
+}
+#div3 #myTab{
+    margin: 10px 0 0 200px;
+
+}
+#div3 #myTabContent img{
+    opacity: 0.8;
+}
+#div3 #myTabContent #wolf{
+    margin: -600px 0 0 700px;
+}
+#div3 #myTabContent #stag{
+    margin: -600px 0 0 700px;
+}
+#div3 #myTabContent #lion{
+    margin: -600px 0 0 700px;
+}
+#div3 #myTabContent #dragon{
+    margin: -600px 0 0 700px;
+}
+#div4{
+    height: 300px;
+}
+#div4 h2{
+    text-align: center;
+}
+
+#div4 #name{
+    float: left;
+    margin: 20px 0 0 200px;
+}
+#div4 #email{
+    float: left;
+    margin: 20px 0 0 200px;
+}
+#div4 #advice{
+    float: left;
+    margin:20px 0 0 200px;
+}
+#div4 #go{
+    float: left;
+    display: block;
+    margin: 150px 0 0 -120px;
+}
+#div4 #go input{
+    width: 80px;
+    height: 40px;
+    background-color: #000;
+    color: #ffffff;
+}
+#div4 #go input:hover{
+    background-color: rgb(63,205,255);
+}
